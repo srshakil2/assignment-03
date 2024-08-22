@@ -51,9 +51,178 @@
     </style>
   </head>
   <body class="manrope">
-    <header></header>
+    <header class="w-11/12 mx-auto mt-5 mb-10">
+      <!-- navber is start here -->
+      <nav class="flex justify-between items-center overflow-hidden">
+        <!-- start -->
+        <div class="">
+          <a class="btn btn-ghost text-xl"
+            ><i
+              class="fa-solid fa-arrow-right -rotate-45 bg-frist px-2 py-2 rounded-full"
+            ></i>
+            Rinterio</a
+          >
+        </div>
+        <!-- center -->
+        <div class="flex space-x-7 my-auto hidden lg:block">
+          <a class="font-semibold" href="https://en.wikipedia.org/wiki/Home"
+            >Home</a
+          >
+          <a href="https://services.nidw.gov.bd/nid-pub/">Services</a>
+          <a href="https://groww.in/p/portfolio">Portfolio</a>
+          <a href="https://en.wikipedia.org/wiki/Blog">Blogs</a>
+          <a href="https://blog.hubspot.com/service/best-contact-us-pages"
+            >Contact Us</a
+          >
+        </div>
+        <!-- bottom -->
+        <div class="hidden lg:block text-c">
+          <button
+            class="btn btn-ghost btn-circle bg-white border border-gray-200"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button
+            class="btn btn-ghost btn-circle bg-white border border-gray-200 mx-2"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+          <button
+            type="button"
+            class="px-5 py-3 bg-frist rounded-full text-lg font-semibold"
+          >
+            Book Consult
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 px-2 py-2 ml-2 rounded-full text-white bg-black"
+            ></i>
+          </button>
+        </div>
+        <!-- end dropdown -->
+        <div class="dropdown block lg:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li><a>Homepage</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div>
+        <div class="flex justify-center w-full mb-10 mt-6">
+          <img src="./assets/banner.png" alt="" />
+        </div>
+        <div class="text-center lg:space-y-10 space-y-5">
+          <h1 class="lg:text-5xl text-3xl font-extrabold">
+            A barn house of this design has a <br />
+            striking appearance
+          </h1>
+          <p class="font-medium">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal <br />
+            accents, and large windows that flood the space with natural light.
+          </p>
+          <div class="">
+            <button
+              type="button"
+              class="bg-fristhuf w-10/12 lg:w-2/12 px-7 py-3 rounded-full text-lg font-semibold"
+            >
+              View Details
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-frist px-2 py-2 rounded-full ml-1"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
-      <h1 class="bg-frist">hjsadgfjsdhagfhsdg</h1>
+      <!-- 1st section -->
+      <section class="lg:relative bg-base-200">
+        <!-- About us -->
+        <div class="space-y-5 lg:absolute lg:left-14">
+          <div class="hidden lg:block mt-3">
+            <img src="./assets/Vector.png" alt="" />
+          </div>
+          <div class="text-center pt-3 lg:pt-0">
+            <button
+              type="button"
+              class="px-5 py-3 bg-white rounded-full text-lg font-bold lg:ml-14"
+            >
+              <i
+                class="fa-solid fa-arrow-right px-2 py-2 ml-2 rounded-full"
+              ></i>
+              About Us
+            </button>
+          </div>
+        </div>
+        <!-- start main -->
+        <div class="">
+          <!-- 1st main -->
+          <div class="">
+            <div class="hero min-h-screen">
+              <div class="hero-content flex-col lg:flex-row my-auto">
+                <div class="">
+                  <div class="text-center lg:text-left space-y-2">
+                    <h2 class="text-3xl font-extrabold">
+                      We design thoughtful, <br />
+                      liveable spaces
+                    </h2>
+                    <p class="py-6 font-medium">
+                      If you build a residence with thought, just as you feel
+                      comfortable living there, you can adapt yourself to that
+                      place easily.
+                    </p>
+                  </div>
+                  <div class="lg:flex gap-4">
+                    <img src="./assets/commercial.png" alt="" />
+                    <div>
+                      <p>Commercial</p>
+                      <p>
+                        If you build a house with thought, you can get
+                        commercial benefits and make financial improvements
+                        easily.
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="./assets/residential.png" alt="" />
+                    <p>Residential</p>
+                    <p>
+                      A country's reputation increases along with
+                      self-improvement through good construction style.
+                    </p>
+                  </div>
+                </div>
+                <div class="">
+                  <img
+                    src="./assets/Rectangle.png"
+                    class="max-w-sm lg:max-w-full rounded-lg shadow-2xl"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
