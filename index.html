@@ -331,11 +331,17 @@
         <div
           class="w-10/12 mt-10 mx-auto grid lg:grid-cols-8 lg:grid-rows-2 gap-4"
         >
-          <div class="hero grid lg:col-span-6 my-auto order-1 lg:order-1">
+          <div class="grid lg:col-span-6 my-auto order-1 lg:order-1">
             <div
-              class="hero-content flex-col lg:flex-row p-4 rounded-2xl shadow-lg"
+              class="flex gap-4 flex-col lg:flex-row p-4 rounded-2xl shadow-lg"
             >
-              <img src="./assets/img1.png" class="rounded-lg shadow-lg" />
+              <div class="w-full h-full">
+                <img
+                  src="./assets/img1.png"
+                  class="rounded-lg shadow-lg w-full h-full"
+                />
+              </div>
+
               <div>
                 <h1 class="text-xl font-semibold">Commercial</h1>
                 <p class="py-6 font-medium">
@@ -357,24 +363,34 @@
               </div>
             </div>
           </div>
-          <div class="grid lg:col-span-2 my-auto order-2 lg:order-2">
+          <div
+            class="grid lg:col-span-2 my-auto order-2 lg:order-2 h-full w-full"
+          >
             <img
               src="./assets/img2.png"
-              class="rounded-lg mx-auto p-4 shadow-lg"
+              class="rounded-lg mx-auto p-4 shadow-lg h-full w-full"
             />
           </div>
-          <div class="grid lg:col-span-2 my-auto order-5 lg:order-3">
+          <div
+            class="grid lg:col-span-2 my-auto order-5 lg:order-3 h-full w-full"
+          >
             <img
               src="./assets/img3.png"
-              class="rounded-lg mx-auto p-4 shadow-lg"
+              class="rounded-lg p-4 shadow-lg h-full w-full mx-auto"
             />
           </div>
-          <div class="hero grid lg:col-span-4 my-auto order-4 lg:order-4">
+          <div class="grid lg:col-span-4 my-auto order-4 lg:order-4">
             <div
-              class="hero-content flex-col lg:flex-row p-4 rounded-2xl shadow-lg"
+              class="flex gap-4 flex-col lg:flex-row p-4 rounded-2xl shadow-lg"
             >
-              <img src="./assets/img4.png" class="rounded-lg shadow-lg" />
-              <div>
+              <div class="w-full min-h-72">
+                <img
+                  src="./assets/img4.png"
+                  class="rounded-lg shadow-lg w-full min-h-full"
+                />
+              </div>
+
+              <div class="">
                 <h1 class="text-xl font-semibold">Commercial</h1>
                 <p class="py-6 font-medium">
                   The Bangladeshi company is moving away from international
@@ -395,16 +411,20 @@
               </div>
             </div>
           </div>
-          <div class="grid lg:col-span-2 my-auto order-3 lg:order-5">
+          <div
+            class="grid lg:col-span-2 my-auto order-3 lg:order-5 w-full h-full"
+          >
             <img
               src="./assets/img5.png"
-              class="rounded-lg mx-auto p-4 shadow-lg"
+              class="rounded-lg mx-auto p-4 shadow-lg w-full h-full"
             />
           </div>
-          <div class="grid lg:col-span-2 my-auto order-6 lg:hidden md:hidden">
+          <div
+            class="grid lg:col-span-2 my-auto order-6 lg:hidden md:hidden w-full h-full"
+          >
             <img
               src="./assets/img5.png"
-              class="rounded-lg mx-auto p-4 shadow-lg"
+              class="rounded-lg mx-auto p-4 shadow-lg w-full h-full"
             />
           </div>
         </div>
@@ -475,6 +495,6 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class=""></footer>
   </body>
 </html>
